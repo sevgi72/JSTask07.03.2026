@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>Code</div>
+    <div class="simple-calculator">
+        <div class="inputs">
+            <input type="number" id="number1" placeholder="Number-1">
+            <input type="number" id="number2" placeholder="Number-2">
+        </div>
+        <div class="buttons">
+            <button onclick="calculate('toplama')" class="btn-blue">Toplama</button>
+            <button onclick="calculate('vurma')" class="btn-red">Vurma</button>
+            <button onclick="calculate('cixma')" class="btn-green">Cixma</button>
+            <button onclick="calculate('bolme')" class="btn-yellow">Bolme</button>
+        </div>
+        <input type="number" id="result" placeholder="Neticeni bura yazdirin">
+    </div>
 </body>
+<script src="./js/script.js"></script>
 </html>

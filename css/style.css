@@ -1,0 +1,35 @@
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.btn-blue {
+    background-color: #007bff;
+}
+
+.btn-red {
+    background-color: #dc3545;
+}
+
+.btn-green {
+    background-color: #198754;
+}
+
+.btn-yellow {
+    background-color: #ffc107;
+    color: black;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
