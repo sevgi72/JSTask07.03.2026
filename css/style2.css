@@ -1,0 +1,27 @@
+.drop-zone {
+    width: 200px;
+    height: 150px;
+    border: 2px dashed black;
+    display: inline-block;
+    margin: 10px;
+}
+  
+.box {
+    width: 50px;
+    height: 50px;
+    background: coral;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    cursor: grab;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+.boxes{
+    display:flex;
+    justify-content:center;
+}
