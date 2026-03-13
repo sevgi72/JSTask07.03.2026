@@ -49,11 +49,12 @@ buttons.forEach(function(button){
     });
 
 });
-// function BasketCount(){
-//       let basketStr = localStorage.getItem("basket");
-//       if(basketStr){
-//         let products=JSON.parse(basketStr);
-//         let basketCount=document.getElementById("basketCount");
-//         basketCount.innerText=products.length;
-//       }
-// }
+function BasketCount(){
+      let basketStr = localStorage.getItem("basket");
+      if(basketStr){
+        let products=JSON.parse(basketStr);
+        let basketCount=document.getElementById("basketCount");
+        basketCount.innerText=products.length;
+      }
+}
+BasketCount();
